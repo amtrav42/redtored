@@ -1,5 +1,6 @@
 body {
   font-family: 'Share Tech Mono', monospace;
+
   font-size: 14px;
   background-color: #14213d;
 }
@@ -27,7 +28,7 @@ h2 {
 }
 p {
   color: #e5e5e5;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
 nav {
