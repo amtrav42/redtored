@@ -9,12 +9,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.whoweare {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-items: center;
-}
 h1 {
   color:#8b1e3f;
   font-size: 3rem;
@@ -60,4 +54,10 @@ a:hover {color: #54494b; font-style: italic;
   text-align: center;
   color: #ec7d10;
   text-shadow: 1px 0 10px;
+}
+.paracentred{
+  text-align: center;
+}
+.whocontent{
+  display:grid | inline-grid;
 }
