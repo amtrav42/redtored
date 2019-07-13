@@ -3,6 +3,27 @@ body {
   font-size: 14px;
   background-color: #14213d;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  color: #ec7d10;
+  text-decoration: none;
+  transition: 0.3s;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+a:hover {
+  color: #54494b;
+  font-style: italic;
+}
 .maincontent {
   display: flex;
   flex-wrap: wrap;
@@ -28,23 +49,14 @@ p {
   color: #e5e5e5;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
-
 }
 nav {
   font-size: 1.2rem;
   font-weight: bolder;
   color: #ec7d10;
 }
-a {
-  text-decoration: none;
-}
-.footer {
-  text-align: right;
-}
 .topnav a {
   margin-right: 10px
-}
-a:hover {color: #54494b; font-style: italic;
 }
 .logo{
   width: 500px;
@@ -69,10 +81,15 @@ a:hover {color: #54494b; font-style: italic;
   font-size: 3rem;
   text-align: center;
   color: #ec7d10;
-  text-shadow: 1px 0 10px;
 }
-.paracentred{
+.paraoffset{
+  width: 900px;
+}
+.footertext{
+  width: 900px;
+  color: gray;
+  opacity: 0.4;
+}
+.secretlink{
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
 }
