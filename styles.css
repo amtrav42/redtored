@@ -61,21 +61,55 @@ nav {
 .logo{
   width: 500px;
 }
+.profilecontent{
+  width: 900px;
+}
+.whocontentalex{
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 60px 1fr;
+}
+.whoimagealex{
+  width: 200px;
+  grid-area: 2/1/3/2;
+}
+.alextitle{
+  grid-area: 1/2/2/3;
+}
+.alexcontent{
+  grid-area: 2/2/3/3;
+}
 .whocontentsandy{
   display:grid;
-  grid-template-columns: 100px 220px 1fr 100px;
-  grid-template-rows: 60px 1fr
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 60px 1fr;
 }
 .whoimagesandy{
   width: 200px;
-  grid-area: 2/2/3/3;
+  grid-area: 2/1/3/2;
 }
 .sandytitle{
-  grid-area: 1/3/2/4;
+  grid-area: 1/2/2/3;
 }
 .sandycontent{
   text-align: left;
-  grid-area: 2/3/3/4;
+  grid-area: 2/2/3/3;
+}
+.whocontentjeremy{
+  display:grid;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 60px 1fr;
+}
+.whoimagesjeremy{
+  width: 200px;
+  grid-area: 2/1/3/2;
+}
+.jeremytitle{
+  grid-area: 1/2/2/3;
+}
+.jeremycontent{
+  text-align: left;
+  grid-area: 2/2/3/3;
 }
 .contactsocials{
   font-size: 3rem;
