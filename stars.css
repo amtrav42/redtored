@@ -1,0 +1,108 @@
+@keyframes twinkle {
+  0% {
+    transform: scale(1, 1);
+    background: rgba(255,255,255,0.0);
+    animation-timing-function: ease-in;
+  }
+  60% {
+    transform: scale(0.8, 0.8);
+    background: rgba(255,255,255,1);
+    animation-timing-function: ease-out;
+  }
+  70% {
+    background: rgba(255,255,255,0.00);
+    transform: scale(1, 1);
+  }
+  80%{
+    background: rgba(255,255,255,0.0);
+    transform: scale(1, 1);
+  }
+  100% {
+    background: rgba(255,255,255,0.0);
+    transform: scale(1, 1);
+  }
+}
+.crux{
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgba(255,255,255,0.0);
+  border-radius: 5px;
+  animation: twinkle 10s infinite;
+}
+.crux1{
+  right: 200px;
+  top: 210px;
+}
+.crux2{
+  right: 135px;
+  top: 280px;
+  animation-duration: 9s;
+}
+.crux3{
+  width: 2px;
+  height: 2px;
+  right: 175px;
+  top: 330px;
+  animation-duration: 5s;
+}
+.crux4{
+  right: 200px;
+  top: 390px;
+  animation-duration: 7s;
+}
+.crux5{
+  right: 265px;
+  top: 275px;
+  animation-duration: 4s;
+}
+.crux6{
+  width: 5px;
+  height: 5px;
+  right: 350px;
+  top: 380px;
+  animation-duration: 7.5s;
+}
+.crux7{
+  right: 450px;
+  top: 410px;
+  animation-duration: 6.5s;
+}
+@keyframes twinklemove {
+  0% {
+    transform: scale(1, 1);
+    background: rgba(255,255,255,0.0);
+    animation-timing-function: ease-in;
+    right: 100px;
+    top: 200px;
+  }
+  60% {
+    transform: scale(0.8, 0.8);
+    background: rgba(255,255,255,1);
+    animation-timing-function: ease-out;
+  }
+  70% {
+    background: rgba(255,255,255,0.00);
+    transform: scale(1, 1);
+  }
+  80%{
+    background: rgba(255,255,255,0.0);
+    transform: scale(1, 1);
+    right: 1200px;
+    top: 700px;
+  }
+  100% {
+    background: rgba(255,255,255,0.0);
+    transform: scale(1, 1);
+  }
+}
+.iss{
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgba(255,255,255,0.0);
+  border-radius: 5px;
+  right: 150px;
+  top: 200px;
+  animation: twinklemove 10s infinite;
+}
