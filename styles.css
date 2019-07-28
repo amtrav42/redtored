@@ -36,7 +36,6 @@ h1 {
   text-align: center;
 }
 h2 {
-  color: #54494b;
   font-size: 2rem;
   text-align: center;
 }
@@ -53,6 +52,9 @@ p {
 nav {
   font-size: 1.2rem;
   font-weight: bolder;
+  color: #ec7d10;
+}
+.primarycta {
   color: #ec7d10;
 }
 .topnav a {
